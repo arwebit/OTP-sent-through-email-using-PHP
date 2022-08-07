@@ -41,8 +41,8 @@ if (isset($_POST['sendOTP'])) {
     $sent = "";
     $className = "";
     $otpGenerate = rand(1000, 9999);
-    $senderName = "ArWeb";
-    $senderEmail = "tutorcode992@gmail.com";
+    $senderName = "<your name/company name>";
+    $senderEmail = "<your email from which you want to send the mail>";
     $recipientEmail = trim($_POST['email_id']);
     $subject = "Please confirm the OTP";
     $msgContent = "Your company's <b>OTP code</b> - " . $otpGenerate;
