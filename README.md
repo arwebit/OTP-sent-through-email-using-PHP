@@ -1,3 +1,2 @@
-# OTP-sent-through-email-using-PHP
-## A simple PHP program to send random OTP through email<br>
+# OTP-sent-through-email-using-PHP<br>
 In this project, we have sent random OTP through email
