@@ -80,14 +80,14 @@ if (isset($_POST['sendOTP'])) {
 <?php
 if ($sent == 1) {
     ?>
-<form class="form-signin">
+<div class="form-signin">
 <h2 class="form-signin-heading">Verify OTP</h2>
 <label for="inputOTP" class="sr-only">OTP</label>
 <input type="hidden" name="hotp" id="hotp" class="form-control" placeholder="Enter OTP" value="<?php echo $otpGenerate; ?>" />
 <input type="text"  name="otp" id="otp" class="form-control" placeholder="Enter OTP"  value="" />
   <b id="message"></b><br>
   <button class="btn btn-lg btn-primary btn-block" type="button" name="verify" id="verify">Verify</button>
-</form>
+</div>
 <?php
 }
 ?>
